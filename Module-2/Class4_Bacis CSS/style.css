@@ -1,0 +1,48 @@
+
+
+body {
+    background-color: floralwhite;
+}
+
+.main {
+    margin:0 auto;
+    width: 80%;
+}
+
+h2 {
+    color: brown;
+    text-align: center;
+    font-size: 100px;
+}
+
+.search_bar {
+    margin: 0 auto;
+    height: 60px;
+    width: 700px;
+
+}
+
+#serach {
+    align-items: center;
+    width: 600px;
+    border-radius: 50%;
+    border-radius: 25px;
+    border: 2px solid brown;
+    padding: 20px; 
+    height: 10px; 
+}
+
+img {
+    height: 35px; 
+    vertical-align: middle;
+}
+
+p {
+    padding: 15px;
+    background-color: aquamarine;
+    color: black;
+}
+
+p:last-child {
+    border: 10px solid rebeccapurple;
+}

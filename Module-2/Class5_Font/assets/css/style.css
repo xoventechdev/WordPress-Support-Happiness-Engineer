@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@font-face {
+    font-family: 'Smile Kids';
+    src: url('SmileKids.woff2') format('woff2'),
+        url('SmileKids.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    margin:  0 auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.google_font h2{
+    font-family: 'Lobster', cursive;
+}
+
+.google_font p {
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+}
+
+.google_font  span {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.custom_font {
+    font-family: 'Smile Kids',sans-serif;
+}
+
