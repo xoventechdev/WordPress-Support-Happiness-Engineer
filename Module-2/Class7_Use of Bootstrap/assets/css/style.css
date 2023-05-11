@@ -1,0 +1,53 @@
+
+.header {
+    margin-top: 15px;
+    border-bottom: 1px solid;
+    margin-bottom: 50px;
+}
+
+.top-bar {
+    justify-content: space-between;
+}
+.logo a {
+    font-size: 32px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav-ul {
+    flex-direction: row;
+    justify-content: right;
+}
+.nav-ul  a {
+    margin: 5px 5px 5px 15px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.nav-ul  a:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.main-pic {
+    height: 57px;
+    width: 100px;
+}
+
+.hero h2 {
+    font-size: 38px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.hero  {
+    font-size: 22px;
+    padding: 10px;
+    font-weight: 400;
+}
+
+
+
+
