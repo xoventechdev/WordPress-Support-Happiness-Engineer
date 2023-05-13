@@ -48,6 +48,30 @@
     font-weight: 400;
 }
 
+.border-bottom {
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.blog {
+    margin: 20px 0 10px 0;
+}
+
+.card-body {
+    padding: 5px;
+}
+
+.secend-hero {
+    margin: 5rem 0 10px 0;
+}
+.secend-hero h1 {
+    color: black;
+    font-weight: 900;
+}
+
+.secend-hero p {
+    font-size: 20px;
+}
 
 
 

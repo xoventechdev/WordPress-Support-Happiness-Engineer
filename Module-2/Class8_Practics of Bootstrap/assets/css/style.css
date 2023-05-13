@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.subscribe:hover {
+    color: #4b4747;
+}
+
+.logo {
+    font-family: 'Lobster', cursive;
+    color: black;
+}
+
+.logo:hover {
+    color: rgb(44, 36, 36);
+}
+
+.sing-up:hover {
+    color: white;
+}
+
+.header{
+    border-bottom: 1px solid rgb(148, 144, 144);
+}
+
+.p-2 {
+    text-decoration: none;
+}
+
+.menubar li {
+    list-style: none;
+}
+
+.menubar a:hover {
+    background-color: #4b4747;
+    color: white;
+    border-radius: 5%;
+}
+
+.hero h2 {
+    font-family: 'Lobster', cursive;
+}
