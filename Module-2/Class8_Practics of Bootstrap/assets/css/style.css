@@ -36,7 +36,15 @@
     border-radius: 5%;
 }
 
-.hero h2 {
+.hero h2, .blogs h3 {
     font-family: 'Lobster', cursive;
 }
 
+.sidebar li {
+    list-style: none;
+    margin: 5px;
+}
+.sidebar li a {
+    font-size: 18px;
+    text-decoration: none;
+}
