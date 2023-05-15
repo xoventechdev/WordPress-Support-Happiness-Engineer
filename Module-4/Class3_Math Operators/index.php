@@ -48,7 +48,6 @@
 
                     <?php
 
-
                         $x = 200;
                         $y = 20;
                         echo '$x = 200 <br/>
@@ -66,7 +65,6 @@
                         echo "<br>";
                         echo "Exponentiation : " . $x ** $y; 
                         echo "<br>";
-
 
                     ?>   
 
