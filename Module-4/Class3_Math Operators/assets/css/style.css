@@ -1,0 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+body {
+    background-color: rgb(51, 51, 51);
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.code-box {
+    background-color: rgb(88, 87, 87);
+}
