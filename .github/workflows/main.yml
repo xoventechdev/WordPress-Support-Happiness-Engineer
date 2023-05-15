@@ -1,0 +1,19 @@
+name: Deploy Private GitHub repository to cPanel
+on:
+  push:
+    branches:
+      - main
+jobs:
+  FTP-Deploy-Action:
+    name: WordPress-Support-Happiness-Engineer
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2.1.0
+      with:
+        fetch-depth: 2
+    - name: WordPress-Support-Happiness-Engineer
+      uses: xoventechdev/WordPress-Support-Happiness-Engineer@4.3.0
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USER }}
+        password: ${{ secrets.FTP_USER }}
