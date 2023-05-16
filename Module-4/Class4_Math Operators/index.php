@@ -25,8 +25,6 @@
                     <textarea class="w-100 p-3 bg-white text-dark fs-4" name="codearea" id="codearea" cols="30" rows="10">
                         $x = 200;
                         $y = 20;
-                        echo '$x = 200 <br/>
-                        $y = 20 <br/>';
 
                         echo "Addition : " . $x + $y; 
                         echo "<br>";
