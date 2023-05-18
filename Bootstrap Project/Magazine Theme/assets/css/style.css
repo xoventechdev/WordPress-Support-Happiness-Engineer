@@ -1,0 +1,14 @@
+
+
+.top-bar {
+    background-color: #04091E;
+}
+
+.top-bar i {
+    color:  white;
+    margin: 2px;
+}
+
+.top-bar p {
+    padding: 5px;
+}
