@@ -1,5 +1,8 @@
 
 
+
+
+
 //Assignment Operators
 console.log('Assignment Operators');
 var a = 2;
@@ -42,3 +45,7 @@ console.log(e <= f);
 console.log('Bitwise Operators');
 var k = 2, j = 3, m = true, n = false;
 console.log((k == j) == n);
+
+
+
+document.getElementById("demo").innerHTML = "//Assignment Operators <br/> console.log('Assignment Operators'); <br/>var a = 2;<br/>console.log(a);<br/>a += 3;<br/>console.log(a);<br/>a -= 1;<br/>console.log(a);<br/>a *= 3;<br/>console.log(a)<br/>a /= 2;<br/>console.log(a);<br/>a %= 4;<br/>console.log(a);<br/>a **= 2;<br/>console.group(a);<br/><br/>//Arithmetic Operators<br/>console.log('Arithme<br/> console.log('Comparison Operators');<br/> var e = 4, f = 4, g = 5, h = '5';<br/>  console.log(e == f);<br/>    console.log(f == g);<br/>  console.log(f != g);<br/>   console.log(g == h);<br/>   console.log(g === h);<br/>  console.log(f > g);<br/> console.log(e <= f);<br/><br/> //Bitwise Operators<br/>console.log('Bitwise Operators');<br/>  var k = 2, j = 3, m = true, n = false;<br/> console.log((k == j) == n);;";
