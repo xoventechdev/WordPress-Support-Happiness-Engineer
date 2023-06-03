@@ -20,7 +20,29 @@ var company = [
     '100&',
     'islamabad'
 ]
+
+console.log(company);
 console.log(company[0].address)
+
+
+company.push('Added with Push')
+console.log(company);
+
+company.pop();
+console.log(company);
+
+company.shift();
+console.log(company);
+
+company.unshift('MacBook');
+console.log(company);
+
+company.splice(1,1,'Replace');
+console.log(company);
+
+company.splice(2,7,'Item');
+console.log(company);
+
 
 
 
