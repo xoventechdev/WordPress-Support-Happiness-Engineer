@@ -26,6 +26,7 @@ console.log(company[0].address)
 
 
 
+
 // for (let index = 1; index <= 10; index++) {
 //     if(index % 2 == 0){
 //         toConsoleFor += index + " is a even number. <br/>";
