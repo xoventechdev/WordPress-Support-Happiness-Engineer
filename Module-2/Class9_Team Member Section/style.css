@@ -1,0 +1,120 @@
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.team-member-header h2 {
+    color: #f13415;
+    font-family: monospace;
+    margin: 0;
+}
+
+.team-member-header {
+    text-align: center;
+    margin: 15px 0 20px 0;
+}
+
+
+.team-member-header h4 {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 9px 10px;
+    font-family: monospace;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+}
+
+.team-members-item {
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.team-member-image {
+    padding: 40px;
+    text-align: center;
+}
+
+.team-member-image img {
+    border-radius: 50%;
+}
+
+.team-member-info {
+    background: black;
+    border-top: 10px solid #f13415;
+    color: white;
+    padding: 15px 15px 15px 15px;
+}
+
+.team-member-info h3 {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.team-member-info p {
+    margin: 0;
+    font-family: math;
+}
+
+.team-member-backside {
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    height: 100%;
+    transition: 0.3s;
+    visibility: hidden;
+}
+
+.team-member-meta p {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.team-member-meta span {
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    margin-right: 15px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    background: #f13415;
+}
+
+.team-member-meta svg {
+    color: white;
+    width: 15px;
+    height: 15px;
+}
+
+.team-member-meta {
+    padding: 0 15px;
+    margin-top: -20px;
+}
+
+.team-member-about {
+    padding: 0 15px;
+}
+
+.team-member-about p {
+    color: white;
+}
+
+.team-members-single {
+    position: relative;
+    box-shadow: 3px 3px 5px #00000080;
+}
+
+.team-members-item:hover .team-member-backside {
+    opacity: 1;
+    visibility: visible;
+}
