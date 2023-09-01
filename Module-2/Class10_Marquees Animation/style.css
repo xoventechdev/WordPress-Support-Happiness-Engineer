@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.review-image img {
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+.review-rate svg {
+  width: 20px;
+  fill: #f8a62e;
+  color: #f8a62e;
+}
+
+.review-content-top {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2px;
+}
+
+.review-date {
+  font-size: 14px;
+  font-family: monospace;
+  color: #737375;
+  margin-left: 10px;
+}
+
+.review-rate {
+  height: 20px;
+}
+
+.review-item {
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.review-content {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.review-row {
+  display: flex;
+  white-space: nowrap;
+}
+
+.review-content-buttom {
+  font-family: math;
+  font-weight: 600;
+  color: #292828;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0%, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.review-image img {
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+.review-rate svg {
+  width: 20px;
+  fill: #f8a62e;
+  color: #f8a62e;
+}
+
+.review-content-top {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2px;
+}
+
+.review-date {
+  font-size: 14px;
+  font-family: monospace;
+  color: #737375;
+  margin-left: 10px;
+}
+
+.review-rate {
+  height: 20px;
+}
+
+.review-item {
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.review-content {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.review-row {
+  display: flex;
+  white-space: nowrap;
+}
+
+.review-content-buttom {
+  font-family: math;
+  font-weight: 600;
+  color: #292828;
+}
+
+section.review-section {
+  animation: marquee 30s linear infinite;
+  animation-play-state: running;
+}
